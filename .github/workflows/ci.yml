@@ -12,7 +12,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '22'
           
       - name: Install and Build
         run: |
@@ -20,4 +20,4 @@ jobs:
           npm run build
           
       - name: Success
-        run: echo " Web học tiếng Anh build thành công!"
+        run: echo " Web học tiếng Anh build thành công! với node 22"
