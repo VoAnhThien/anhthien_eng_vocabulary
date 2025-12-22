@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.home-container {
+  min-height: 100vh;
+  background: #f9fafb; /* nền xám nhạt */
+  padding: 2rem 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-wrapper { 
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827; /* đen */
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #374151; /* xám đậm */
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: #6b7280; /* xám trung */
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Categories Grid */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card {
+  background: white;
+  border: 1px solid #e5e7eb; /* viền xám nhạt */
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-4px);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2563eb; /* xanh dương đơn sắc */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.card-description {
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.card-stats {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.card-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2563eb; /* xanh dương đơn sắc */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card-button:hover {
+  background: #1e40af; /* xanh đậm hơn khi hover */
+}
+
+/* Footer */
+.home-footer {
+  text-align: center;
+  color: #374151;
+  font-size: 0.95rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+.home-footer p {
+  margin: 0.25rem 0;
+}
+.card-gradient {
+  height: 5px;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 15px;
+}
+
+.bg-gradient-from-orange-500.to-red-500 {
+  background: linear-gradient(135deg, #f97316 0%, #dc2626 100%);
+}
