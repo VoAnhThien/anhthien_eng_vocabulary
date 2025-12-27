@@ -23,6 +23,7 @@ const HomePage = () => {
           </h1>
           <p className="hero-description">
             Chọn bộ từ vựng phù hợp với mục tiêu của bạn và bắt đầu học ngay!
+            Võ Anh Thiên DH52201482
           </p>
         </div>
 
